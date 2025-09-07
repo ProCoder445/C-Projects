@@ -40,7 +40,7 @@ class Library
     : book_list(list) {}
 
   void add_book(Book &book) {
-    this->book_list.__append(*book)
+    this->book_list.push_back(book);
   }
 };
 
